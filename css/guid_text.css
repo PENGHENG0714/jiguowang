@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.box {
+    width: 100%;
+}
+
+
+/* 导航栏 */
+
+.nav {
+    height: 60px;
+    border-bottom: 1px solid rgb(180, 177, 177);
+}
+
+.nav div {
+    margin-left: 150px;
+    width: 125px;
+    height: 50px;
+    background-color: yellow;
+    background: url('../img/logonew.png');
+    background-size: contain;
+}
+
+.nav ul {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+
+.nav ul li {
+    margin-left: 50px;
+    float: left;
+}
+
+.nav ul li a {
+    color: gray;
+}
+
+.nav ul li a:hover {
+    color: #fb4d28;
+}
+
+.nav ul li button {
+    width: 40px;
+    border: 1px solid orangered;
+    background-color: transparent;
+    color: orangered;
+}
+
+.nav .zhuce {
+    margin-left: 300px;
+}
+
+.nav .zhuce a {
+    color: orangered;
+}
+
+
+/* 页脚 */
+
+.foot {
+    width: 100%;
+    height: 400px;
+    background-color: #505050;
+}
+
+.foot {
+    font-size: 15px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.foot {
+    position: relative;
+}
+
+.foot ul li {
+    list-style: none;
+    float: left;
+}
+
+.foot span {
+    font-size: 20px;
+}
+
+.box1 {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-size: 12px;
+}
+
+.box2 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.box3 {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.box4 {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.box5 {
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.box6 {
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.box7 {
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.play {
+    width: 100%;
+}
+
+.find {
+    width: 100%;
+    /* height: 960px; */
+    margin: 0 auto;
+    margin-top: 84px;
+}
+
+.content1 {
+    background-color: #f7f7f7;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.box {
+    width: 1139px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.dabox {
+    width: 1139px;
+    position: relative;
+}
+
+.box .begin {
+    font-size: 14px;
+    color: #a8aead;
+    cursor: pointer;
+}
+
+.box_ {
+    width: 760px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+.box_ h1 {
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.box_ span:nth-of-type(1) {
+    padding-left: 20px;
+    color: #a8aead;
+}
+
+.box_ span:nth-of-type(2) {
+    padding-left: 600px;
+    color: #a8aead;
+}
+
+.box_ .a1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #a8aead;
+}
+
+.box_ h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box_ p,
+.box img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box_ p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box_ img {
+    width: 720px;
+    height: auto;
+    cursor: pointer;
+}
+
+.box_ i {
+    padding-left: 20px;
+    font-style: normal;
+}
+
+.box_ .a2,
+.box_ .a3 {
+    padding-left: 20px;
+    color: #b9b9bb;
+}
+
+.box_ .a3 {
+    padding-bottom: 35px;
+}
+
+.xihuan {
+    position: absolute;
+    top: 0px;
+    right: 194px;
+    width: 125px;
+    height: 125px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.fenxaing {
+    position: absolute;
+    top: 0px;
+    right: 66px;
+    width: 125px;
+    height: 125px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.xihuan img,
+.fenxaing img,
+.xihuan p,
+.fenxaing p {
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
