@@ -60,6 +60,10 @@
     .nav .zhuce a {
         color: orangered;
     }
+    
+    .nav .zhuce img {
+        vertical-align: middle;
+    }
     /* title发现酷玩 */
     
     .title {
