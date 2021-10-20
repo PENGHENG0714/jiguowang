@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.box {
+    width: 100%;
+}
+
+
+/* 背景图 */
+
+.header {
+    position: relative;
+}
+
+.yinxiang {
+    /* background-color: rgb(24, 19, 19); */
+    color: white;
+    width: 300px;
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    right: 280px;
+}
+
+.yinxiang span {
+    margin-top: 10px;
+    display: inline-block;
+    height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: rgba(3, 0, 0, 0.1);
+}
+
+.yinxiang .shenqing {
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+}
+
+.yinxiang h6 {
+    margin-top: 10px;
+}
+
+.header img {
+    width: 100%;
+}
+
+
+/* 轮播图 */
+
+.lunbotu {
+    width: 1080px;
+    height: 300px;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons a {
+    display: inline-block;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+
+/* 报告精选 */
+
+.baogao {
+    background-color: rgb(230, 227, 227);
+    position: relative;
+}
+
+.baogao ul {
+    width: 1080px;
+    height: 500px;
+    /* background-color: aqua; */
+    margin: 0px auto;
+}
+
+.baogao ul li {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    float: left;
+    width: 230px;
+    height: 230px;
+    color: gray;
+    background-color: white;
+}
+
+.baogao ul .l1,
+.l2 {
+    margin-left: 30px;
+}
+
+.baogao ul li img {
+    width: 100%;
+}
+
+.baogao span {
+    margin-top: 20px;
+    display: inline-block;
+    width: 112px;
+    height: 20px;
+    /* background-color: blue; */
+    font-size: 14px;
+}
+
+.baogao .s1 {
+    text-align: right;
+}
+
+.baogao h5 {
+    padding-left: 10px;
+}
+
+.baogao h3 {
+    /* position: absolute; */
+    position: relative;
+    left: 170px;
+    top: 13px;
+}
+
+.baogao h4 {
+    /* position: absolute;     */
+    position: relative;
+    top: -13px;
+    left: 1230px;
+    margin-bottom: 10px;
+    color: rgb(235, 101, 52);
+}
+
+
+/* 导购精选模块 */
+
+.daogou {
+    background-color: white;
+}
+
+.daogou ul {
+    width: 1080px;
+    height: 210px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.daogou h3 {
+    position: relative;
+    top: 15px;
+    left: 140px;
+}
+
+.daogou h4 {
+    position: relative;
+    top: -10px;
+    right: -1230px;
+    color: rgb(235, 101, 52);
+}
+
+.daogou ul li {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    float: left;
+    width: 230px;
+    height: 200px;
+    color: gray;
+    background-color: white;
+}
+
+.daogou ul li img {
+    width: 100%;
+}
+
+.daogou .l1 {
+    margin-left: 30px;
+}
+
+.daogou h5 {
+    padding-left: 10px;
+}
+
+.daogou span {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: right;
+    width: 230px;
+    height: 25px;
+}
+
+
+/* 发现酷玩模块 */
+
+.faxian {
+    background-color: rgba(105, 103, 103, 0.1);
+    height: 980px;
+    margin-top: 30px;
+}
+
+.faxian h3 {
+    position: relative;
+    top: 15px;
+    left: 140px;
+}
+
+.faxian h4 {
+    position: relative;
+    top: -10px;
+    right: -1230px;
+    color: rgb(235, 101, 52);
+}
+
+.faxian ul {
+    width: 1080px;
+    margin: 0 auto;
+    height: 230px;
+    color: gray;
+    /* background-color: red; */
+}
+
+.faxian ul li {
+    background-color: white;
+    float: left;
+    width: 230px;
+    height: 220px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.faxian ul li img {
+    width: 100%;
+}
+
+.faxian span {
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    /* background-color: blue; */
+    font-size: 14px;
+    color: rgb(235, 101, 52);
+}
+
+.faxian .s1 {
+    margin-top: 10px;
+    text-align: right;
+    color: gray;
+}
+
+.jiazai {
+    color: orangered;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 400px;
+    /* background-color: red; */
+}
+
+
+/* 页脚 */
+
+.footer {
+    height: 350px;
+    background-color: aqua;
+    margin-top: 30px;
+}
+
+.swiper-container {
+    width: 1000px;
+    height: 200px;
+}
+
+.swiper-container img {
+    width: 300px;
+}

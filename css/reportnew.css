@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.nav {
+    height: 60px;
+    border-bottom: 1px solid gray;
+    /* background-color: red; */
+
+}
+.nav div {
+    margin-left: 150px;
+    width: 125px;
+    height: 50px;
+    background-color: yellow;
+    background: url('../img/logonew.png');
+    background-size:contain;
+}
+.nav ul {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+.nav ul li {
+    margin-left: 50px;
+    float: left;
+
+    
+}
+
+
+.nav ul li a {
+    color: gray;
+}
+.nav ul li button {
+    width: 40px;
+    border: 1px solid orangered;
+background-color: transparent;
+color: orangered;
+}
+
+.nav .zhuce {
+    margin-left: 300px;
+ 
+}
+.nav .zhuce a {
+    color: orangered;
+}
+
+/* 页脚 */
+.box{
+    width: 100%;
+    height: 400px;
+    background-color: #505050;
+        margin-top: -28px;
+}
+.box {
+    font-size: 15px;
+    color:#fff;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.box{
+    position: absolute;
+}
+.box ul li {
+    list-style: none;
+    float: left;
+}
+span{
+    font-size: 20px;
+}
+.box1{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-size: 12px;
+}
+.box2{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box3{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box4{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box5{
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box6{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box7{
+    position: absolute;
+   top: 350px;
+    left: 700px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.main {
+    margin-top: 20px;
+    height: 100px;
+    text-align: center;
+}
+
+.main button {
+    background-color: transparent;
+    border: transparent;
+    width: 80px;
+}
+
+.da .neirong{
+    background-color: rgb(219, 218, 219);
+    position: relative;
+}
+.neirong .left {
+    width: 550px;
+    /* height: 1000px; */
+    /* background-color: aqua; */
+    margin-left: 190px;
+    /* margin-top: 20px; */
+}
+
+.left ul li {
+    height: 400px;
+    background-color: rgb(243, 239, 239);
+}
+.left ul li img {
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 70%;
+}
+
+.left ul li h5 {
+    margin-top: 10px;
+}
+
+.left ul li span {
+    display: block;
+    font-size: 14px;
+}
+.left ul li .s1 {
+    text-align: right;
+}
+.left1 ul .l2 {
+    /* background-color: red; */
+    margin-bottom: 150px;
+}
+.left1 ul .l2 {
+    /* background-color: red; */
+    margin-bottom: 150px;
+}
+.left ul .l2 {
+    /* background-color: red; */
+    margin-bottom: 150px;
+}
+.left  h4 {
+    text-align: center;
+    border: 1px solid rgb(150, 146, 146);
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    color: gray;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.da .right {
+    width: 300px;
+    height: 800px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    right: 280px;
+}
+.right h3 {
+    text-indent: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid red;
+    margin-bottom: 20px;
+}
+
+.right h4 {
+    margin-top: 20px;
+}
+
+.right p {
+    margin: 10px;
+}
+
+.right ul li {
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.right ul .l1 {
+text-align: center;
+ margin-left: 10px; 
+ background-color: rgb(182, 179, 179);
+}
+
+.right ul li h5 {
+margin-top: 30px;
+}
+.right ul li img {
+    width: 100%;
+}
+
+.jiazai {
+    width: 200px;
+    /* height: 30px; */
+color:red;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+
+
+
+
+.neirong .left1 {
+    width: 550px;
+ display: none;
+    margin-left: 190px;
+    /* margin-top: 20px; */
+}
+
+.left1 ul li {
+    height: 400px;
+    background-color: rgb(243, 239, 239);
+}
+.left1 ul li img {
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 70%;
+}
+
+.left1 ul li h5 {
+    margin-top: 10px;
+}
+
+.left1 ul li span {
+    display: block;
+    font-size: 14px;
+}
+.left1 ul li .s1 {
+    text-align: right;
+}
+.left1  h4 {
+    text-align: center;
+    border: 1px solid rgb(150, 146, 146);
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    color: gray;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

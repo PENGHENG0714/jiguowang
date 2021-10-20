@@ -1,0 +1,479 @@
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.box-1{
+    width: 100%;
+    border: 2px solid #ccc;
+}
+.nav{
+    height: 130px;
+    border-top: none;
+}
+.nav {
+    height: 60px;
+    margin-left: 200px;
+    /* background-color: red; */
+
+}
+ul li{
+    list-style: none;
+}
+.nav div {
+    margin-left: 150px;
+    width: 125px;
+    height: 50px;
+    background-color: yellow;
+    background: url('../img/logonew.png');
+    background-size:contain;
+}
+.nav ul {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+.nav ul li {
+    margin-left: 50px;
+    float: left;
+}
+.nav ul li a {
+    color: gray;
+}
+.nav ul li button {
+    width: 40px;
+    border: 1px solid orangered;
+    background-color: transparent;
+    color: orangered;
+}
+.nav .zhuce {
+    margin-left: 50px;
+ 
+}
+.nav .zhuce-1{
+    margin-left: 200px;
+}
+.nav .zhuce a {
+    color: orangered;
+}
+/* 版心动漫 */
+.dm{
+    width: 250px;
+    height: 200px;
+    margin-left: 980px;
+    animation: fly ease-in 3s;
+    animation-fill-mode:forwards;
+}
+@keyframes fly{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* 动画 */
+#dohua{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 黑体;
+}
+#dohua-l1 span{
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    background-color: #ccc;
+    color: #fff;
+}
+#dohua-1 span {
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 40px;
+    background-color:#F6D39B;
+    color: #fff;
+}
+#dohua-2{
+    font-size: 13px;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+}
+#dohua-3{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    
+    background-color: #FE5341;
+}
+/* 版心 */
+#head{
+    width: 100%;
+    margin: 0 auto;
+}
+.head {
+    height: 200px;
+    background-size: 100% 200px;
+    background-image: url(../img/original.jpg);
+
+}
+
+.head-1{
+    width: 100%;
+    height: 90px;
+    float: left;
+    margin: 0 auto;
+    background-color:#F0F0F0;
+}
+.head-1 ul li{
+    list-style: none;
+    float: left;
+    padding: 20px 40px;
+}
+.head-2{
+    width: 60%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+}
+.head-2 ul li,.h{
+    font-size: 15px;
+    font-weight: 宋体;
+    line-height: 20px;
+}
+.h{
+    border-left: 5px solid #FE5341 ;
+}
+li p{
+    font-size: 10px;
+    font-weight: 宋体;
+    text-align: center;
+}
+li p:hover{
+    border-bottom: solid 2px  #FE5341;
+}
+/* 第二版心 */
+.ban{
+    width: 60%;
+    height: 1950px;
+    margin: 0 auto;
+}
+/* 第二版心一 */
+.ban-1{
+    width: 60%;
+    height: 1850px;
+    display: block;
+    float: left;
+}
+#p1{
+    font-size: 18px;
+    font-weight: 宋体;
+    line-height: 40px;
+    padding: 0px 10px;
+    border-left: 5px solid #FE5341;
+    
+}
+#p2{
+    color: #FE5341;
+    font-size: 18px;
+    font-weight: 900;
+    font-weight: 宋体;
+    line-height: 60px;
+}
+#p3{
+    font-size: 12px;
+    font-weight: 宋体;
+    line-height: 20px;
+}
+#p4{
+   padding: 20px 0px;
+}
+#p5{
+    font-size: 15px;
+    line-height: 50px;
+    color: #0069c5;
+}
+#p6{
+    font-size: 13px;
+    font-weight: 宋体;
+    line-height: 80px;
+    font-weight: 900;
+    color: #9BC3D3;
+}
+#p7{
+    font-size: 15px;
+    color: #FE5341;
+    font-weight: 宋体;
+    font-weight: 900;
+    line-height: 20px;
+}
+span{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    font-weight:宋体;
+}
+ul li{
+    list-style: none;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight:宋体;
+
+}
+
+/* 第二版心二 */
+.ban-2{
+    width: 30%;
+    height: 1000px;
+    float: left;
+}
+#b1{
+    font-size: 30px;
+    color: #FE5341;
+    font-weight:宋体;
+    line-height: 60px;
+}
+#b2{
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-weight:宋体;
+    background-color:#FE5341;
+   
+}
+#b3{
+    font-size: 8px;
+    line-height: 30px;
+    text-align: center;
+    color: #ccc;
+    font-weight:宋体;
+}
+#b4{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    font-weight: 宋体;
+}
+#b5{
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 宋体;
+    line-height: 20px;
+}
+#b6{
+    font-size: 18px;
+    font-weight: 宋体;
+    line-height: 30px;
+    padding: 0px 10px;
+    border-left: 5px solid #FE5341;
+}
+/* 底部试用 */
+.re{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: 宋体;
+}
+#re-1{
+    font-size: 12px;
+    color:  #FE5341;
+    line-height: 24px;
+}
+.ban-3{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}.xin1{
+    height: 300px;
+}
+.x1{
+    width: 280px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+   transition: all 0.3s;
+}
+.x1:hover{
+   box-shadow:  5px 2px 3px 2px rgb(177, 177, 177);
+}
+.x2{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    left: 300px;
+    border-radius: 10px;
+}
+
+.x3{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    left: 600px;
+      border-radius: 10px;
+}
+.x4{
+    width: 280px;
+    height: 300px;
+    top: -600px;
+    position: relative;
+    left: 900px;
+    border-radius: 10px;
+}
+/* xl1是版心图片1 */
+.xl1{
+    font-size: 20px;
+    font-weight: 宋体;
+    line-height: 40px;
+}
+.xl2 span {
+    text-align: center;
+    color: #FE5341;
+    padding:  0px 15px;
+    line-height: 20px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.xl3{
+    text-align: center;
+}
+.xl3 span{
+    font-size: 15px;
+    line-height: 30px;
+    color: #FE5341;
+}
+.xl4{
+    text-align: center;
+    color: #FE5341;
+    font-size: 10px;
+}
+.xl5{
+    width: 35px;
+    height: 25px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FE5341;
+    position: relative;
+    top: -275px;
+    left: 245px;
+}
+.xl6{
+    width: 70px;
+    height: 25px;
+    color: black;
+    line-height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(224, 224, 24);
+    position: relative;
+    top: -275px;
+    left: 210px;
+}
+.xl7{
+    text-align: center;
+}
+.xl7 span{
+    font-size: 15px;
+    line-height: 30px;
+    color:#FE5341 ;
+}
+.xl8{
+    text-align: center;
+    color: green;
+    font-size: 10px;
+}
+
+/* 页脚 */
+#cbq{
+    width: 100%;
+    
+}
+.box{
+    width:1080px !important;
+    height: 350px;
+    background-color: #505050;
+    font-size: 15px;
+    color:#fff;
+    line-height: 30px;
+    font-size: 12px;
+    position: relative;
+
+}
+
+    
+
+.box ul li {
+    list-style: none;
+    float: left;
+}
+span{
+    font-size: 20px;
+}
+.box1{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-size: 12px;
+}
+.box2{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box3{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box4{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box5{
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box6{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box7{
+    position: absolute;
+    top: 310px;
+    left: 500px;
+    font-size: 12px;
+    color: #ccc;
+}
+li{
+    list-style: none;
+}

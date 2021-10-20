@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.box-1{
+    width: 100%;
+   
+}
+.nav{
+    height: 100px;
+    border: 2px  solid #ccc ;
+    border-top: none;
+}
+.nav {
+    height: 60px;
+    /* background-color: red; */
+
+}
+ul li{
+    list-style: none;
+}
+.nav div {
+    margin-left: 150px;
+    width: 125px;
+    height: 50px;
+    background-color: yellow;
+    background: url('../img/logonew.png');
+    background-size:contain;
+}
+.nav ul {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+.nav ul li {
+    margin-left: 50px;
+    float: left;
+}
+.nav ul li a {
+    color: gray;
+}
+.nav ul li button {
+    width: 40px;
+    border: 1px solid orangered;
+    background-color: transparent;
+    color: orangered;
+}
+.nav .zhuce {
+    margin-left: 50px;
+ 
+}
+.nav .zhuce-1{
+    margin-left: 250px;
+}
+.nav .zhuce a {
+    color: orangered;
+}
+/* 头部试用 */
+.head{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: 宋体;
+}
+.head1{
+    font-size: 18px;
+    height: 50px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: 宋体;
+    color: #ccc;
+    border-bottom: solid 2px #ccc;
+}
+.head1 span:hover{
+    font-size: 20px;
+    color: #FC5633;
+    border-bottom: 2px solid #FC5633;
+}
+.headl1{
+    font-size: 20px;
+    color: #FC5633;
+    border-bottom: 2px solid #FC5633;
+}
+.head2{
+    height: 50px;
+    line-height: 50px;
+    font-weight: 15px;
+    font-weight: 宋体;
+    text-align: center;
+}
+.head2,#head-1{
+    color: black;
+}
+.head2,#head-1 a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.head2 span{
+    padding: 0px 50px;
+    color: #ccc;
+}
+.head2 span:hover{
+    color: black;
+}
+/* 版心图片 */
+.ban{
+    width: 100%;
+    height: 2000px;
+    
+}
+.xin{
+    width: 80%;
+    height: 1600px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+.xin1{
+    height: 300px;
+}
+.x1{
+    width: 280px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+   transition: all 0.3s;
+}
+.x1:hover{
+    box-shadow:  5px 2px 3px 2px rgb(177, 177, 177);
+}
+.x2{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    left: 300px;
+    border-radius: 10px;
+}
+
+.x3{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    left: 600px;
+      border-radius: 10px;
+}
+.x4{
+    width: 280px;
+    height: 300px;
+    top: -600px;
+    position: relative;
+    left: 900px;
+    border-radius: 10px;
+}
+/* xl1是版心图片1 */
+.xl1{
+    font-size: 20px;
+    font-weight: 宋体;
+    line-height: 40px;
+}
+.xl2 span {
+    text-align: center;
+    color: red;
+    padding:  0px 15px;
+    line-height: 20px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.xl3{
+    text-align: center;
+}
+.xl3 span{
+    font-size: 15px;
+    line-height: 30px;
+    color: red;
+}
+.xl4{
+    text-align: center;
+    color: #ccc;
+    font-size: 10px;
+}
+.xl5{
+    width: 35px;
+    height: 25px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    background-color: red;
+    position: relative;
+    top: -275px;
+    left: 245px;
+}
+/* 第二版心 */
+.xin2{
+    height: 300px;
+    position: relative;
+    top: 50px;
+
+}
+/* 第三版心 */
+.xin3{
+    height: 300px;
+    position: relative;
+    top: -550px;
+}
+/* 第四版心 */
+.xin4{
+    height: 300px;
+    position: relative;
+    top: -550px;
+}
+/* 更多 */
+.d{
+    position: relative;
+    top: -500px;
+    text-align: center;
+}
+.d a{
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* 页脚 */
+.box{
+    width: 100%;
+    height: 350px;
+    background-color: #505050;
+}
+.box {
+    font-size: 15px;
+    color:#fff;
+    line-height: 30px;
+    font-size: 12px;
+}
+.box{
+    position: relative;
+}
+.box ul li {
+    list-style: none;
+    float: left;
+}
+span{
+    font-size: 20px;
+}
+.box1{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-size: 12px;
+}
+.box2{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box3{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box4{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box5{
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box6{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    font-size: 12px;
+    color: #ccc;
+}
+.box7{
+    position: absolute;
+    top: 310px;
+    left: 600px;
+    font-size: 12px;
+    color: #ccc;
+}
+li{
+    list-style: none;
+}

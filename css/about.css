@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+.left {
+    width: 250px;
+    /* height: 1000px; */
+    background-color: #F2F3F4;
+    /* background-color: red; */
+    margin-top: 25px;
+    margin-left: 100px;
+    /* float: left; */
+}
+.left h3 {
+    border-bottom: 1px solid gray;
+    width: 230px;
+    /* background-color: red; */
+    text-indent: 1em;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+
+}
+.left h4 {
+    margin-top: 30px;
+    margin-left: 29px;
+}
+.left ul {
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    /* text-align: center; */
+    margin-left: 45px;
+}
+.left ul li a {
+    font-size: 14px;
+    color: gray;
+}
+/* 右 */
+
+.right {
+    width: 800px;
+    background-color: #F2F3F4;
+    position: relative;
+    top: -356px;
+    right: -360px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.right h3 {
+    position: relative;
+    top: 20px;
+    text-indent: 1em;
+    width: 770px;
+    /* background-color: red; */
+    margin-top: 20px;
+    margin-left: 15px;
+    border-bottom: 1px solid gray;
+}
+.right h4 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.right p {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+    line-height: 25px;
+}
+.right h5 {
+margin: 50px 0 50px 30px;
+}
+
+.right span {
+    display: block;
+    width: 200px;
+    height: 100px;
+    /* background-color: red;    */
+    margin-left: 55px;
+    margin-top: 30px;
+    color: gray;
+}
+
+.main {
+    width: 1280px;
+    height: auto;
+    
+}
+
+
+
+.shiyong {
+    width: 800px;
+    background-color: #F2F3F4;
+    /* float: left; */ 
+    position: relative;
+    top: -356px;
+    right: -360px;
+    margin-top: 25px;
+    margin-left: 30px;
+    display: none;
+}
+
+.shiyong h3 {
+    position: relative;
+    top: 20px;
+    text-indent: 1em;
+    width: 770px;
+    /* background-color: red; */
+    margin-top: 20px;
+    margin-left: 15px;
+    border-bottom: 1px solid gray;
+}
+.shiyong p {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+    line-height: 25px;
+}
+.shiyong h4 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
